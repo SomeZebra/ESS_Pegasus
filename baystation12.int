@@ -1,0 +1,11 @@
+// BEGIN_INTERNALS
+/*
+MAP_ICON_TYPE: 0
+WINDOW: icons\mob\animal.dmi;icons\mob\AI.dmi;code\game\machinery\wishgranter.dm;code\datums\diseases\alien_embryo.dm;code\game\machinery\status_display_ai.dm;code\modules\mob\living\silicon\ai\ai.dm;maps\exodus-1.dmm;code\game\objects\items\toys.dm;code\game\jobs\job_controller.dm;code\game\jobs\jobs.dm;code\game\jobs\whitelist.dm;code\__HELPERS\logging.dm;code\game\periodic_news.dm;icons\turf\desert.dmi;icons\turf\floors.dmi;code\modules\mining\mine_areas.dm;icons\turf\areas.dmi;code\game\objects\effects\mines.dm;code\modules\awaymissions\bluespaceartillery.dm;code\modules\awaymissions\gateway.dm;code\modules\awaymissions\zlevel.dm;code\modules\power\gravitygenerator.dm;maps\exodus-5.dmm;code\__HELPERS\unsorted.dm;code\game\area\Space Station 13 areas.dm;maps\exodus-5-F2.dmm;code\modules\mining\drilling\drill.dm;maps\exodus-2.dmm
+LAST_COMPILE_VERSION: 506.1247
+DIR: code code\__HELPERS code\datums code\datums\spells code\game code\game\area code\game\jobs code\game\jobs\job code\game\machinery code\game\machinery\atmoalter code\game\machinery\computer code\game\machinery\doors code\game\machinery\embedded_controller code\game\objects code\game\objects\effects code\game\objects\items code\game\objects\items\devices code\game\objects\items\stacks code\game\objects\items\stacks\sheets code\game\objects\items\weapons code\game\objects\items\weapons\circuitboards code\game\objects\items\weapons\circuitboards\computer code\game\objects\structures code\game\objects\structures\crates_lockers code\game\objects\structures\crates_lockers\closets code\modules code\modules\awaymissions code\modules\mining code\modules\mining\drilling code\modules\mob\living code\modules\mob\living\silicon code\modules\mob\living\silicon\ai code\modules\research\xenoarchaeology icons icons\obj\doors icons\turf maps 
+FILE: code\game\area\Space Station 13 areas.dm
+LAST_COMPILE_TIME: 1433792178
+AUTO_FILE_DIR: OFF
+*/
+// END_INTERNALS
