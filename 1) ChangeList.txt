@@ -1,0 +1,54 @@
+==========
+4.04.15
+---
+* Снят вайтлист с ксенорас.
+* По умолчанию включены алиены и ниндзя.
+* На астероиде установлена синга для запитки Научстанции и Шахтерки с двух радколлекторов соответственно.
+* На астероиде добавлен домик Отшельника с питанием от термального генератора.
+* Добавлена коробка голобейджей в Варденовскую.
+* TICKLAG 0.9 сменена на TICKLAG 0.5 (сглаживание)
+* Гости включены, но джоббан глав им оставлен.
+* Юзеры ToR забанены.
+
+==========
+What will we do with a drunken engie?
+What will we do with a drunken engie?
+What will we do with a drunken engie?
+Early at the morning?
+
+Hey-Wey and up! She raises!
+Hey-Wey and up! She raises!
+Hey-Wey and up! She raises!
+Early at the morning!
+
+Shave 'is beard with a plasmacutter.
+Shave 'is beard with a plasmacutter.
+Shave 'is beard with a plasmacutter.
+Early at he morning!
+
+Hey-Wey and up! She raises!
+Hey-Wey and up! She raises!
+Hey-Wey and up! She raises!
+Early at the morning!
+
+Put 'im next the singul until he's sober.
+Put 'im next the singul until he's sober.
+Put 'im next the singul until he's sober.
+Early at the morning!
+
+Hey-Wey and up! She raises!
+Hey-Wey and up! She raises!
+Hey-Wey and up! She raises!
+Early at the morning!
+
+Robast with toolbox and drive him to dying.
+Robast with toolbox and drive him to dying.
+Robast with toolbox and drive him to dying.
+Early at the morning!
+
+That's what we do with the drunken engie!
+That's what we do with the drunken engie!
+That's what we do with the drunken engie!
+Early at the morning!
+
+
