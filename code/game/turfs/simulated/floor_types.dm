@@ -31,6 +31,11 @@
 	icon_state = "wood"
 	floor_type = /obj/item/stack/tile/wood
 
+//	ex_act(severity)
+//		..()
+//		src.ChangeTurf(/turf/simulated/floor/wood)
+
+
 /turf/simulated/floor/vault
 	icon_state = "rockvault"
 
@@ -161,6 +166,17 @@
 	name = "Coastline"
 	icon = 'icons/misc/beach2.dmi'
 	icon_state = "sandwater"
+
+/turf/simulated/floor/plating/airless/planetsurface
+	name = "Planet surface"
+	icon = 'icons/turf/floors.dmi'
+	icon_state = "asteroid"
+//	floor_type = /obj/item/stack/tile/wood
+
+	ex_act(severity)
+		..()
+		src.ChangeTurf(/turf/simulated/floor/wood)
+
 
 /turf/simulated/floor/beach/water
 	name = "Water"

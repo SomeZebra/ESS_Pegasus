@@ -752,7 +752,7 @@
 	desc = "A snack machine courtesy of the Getmore Chocolate Corporation, based out of Mars."
 	product_slogans = "Try our new nougat bar!;Twice the calories for half the price!"
 	product_ads = "The healthiest!;Award-winning chocolate bars!;Mmm! So good!;Oh my god it's so juicy!;Have a snack.;Snacks are good for you!;Have some more Getmore!;Best quality snacks straight from mars.;We love chocolate!;Try our new jerky!"
-	icon_state = "snack"
+	icon_state = "Theater"
 	products = list(/obj/item/clothing/glasses/eyepatch = 10, /obj/item/clothing/glasses/regular = 10, /obj/item/clothing/glasses/sunglasses = 10, /obj/item/clothing/gloves/black = 10, /obj/item/clothing/head/cardborg = 10,
 					/obj/item/clothing/head/chaplain_hood = 10, /obj/item/clothing/head/culthood = 10, /obj/item/clothing/head/fedora = 10, /obj/item/clothing/head/fez = 10, /obj/item/clothing/head/kitty = 10,
 					/obj/item/clothing/head/nun_hood = 10, /obj/item/clothing/head/nursehat = 10, /obj/item/clothing/head/rabbitears = 10, /obj/item/clothing/head/that = 10,
@@ -761,8 +761,8 @@
 					/obj/item/clothing/suit/nun = 10, /obj/item/clothing/suit/storage/labcoat = 10, /obj/item/clothing/under/assistantformal = 10, /obj/item/clothing/under/blackskirt = 10,
 					/obj/item/clothing/under/color/black = 10, /obj/item/clothing/under/color/blue = 10, /obj/item/clothing/under/color/green = 10, /obj/item/clothing/under/color/yellow = 10, /obj/item/clothing/under/color/white = 10,
 					/obj/item/clothing/under/color/red = 10, /obj/item/clothing/under/color/grey = 10, /obj/item/clothing/under/psysuit = 10)
-	contraband = list(/obj/item/clothing/accessory/medal/gold = 1)
-	prices = list(/obj/item/clothing/glasses/eyepatch = 1)
+	//contraband = list(/obj/item/clothing/accessory/medal/gold = 1)
+	//prices = list(/obj/item/clothing/glasses/eyepatch = 1)
 
 /obj/machinery/vending/cola
 	name = "Robust Softdrinks"
@@ -784,17 +784,6 @@
 /obj/machinery/vending/cola/fallout
 	name = "Sparkle Cola"
 	desc = "A softdrink vendor provided by John-Caleb Bradberton."
-	products = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_mountain_wind = 10,
-					/obj/item/weapon/reagent_containers/food/drinks/cans/dr_gibb = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 10,
-					/obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle = 10,/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 10,
-					/obj/item/weapon/reagent_containers/food/drinks/cans/iced_tea = 10, /obj/item/weapon/reagent_containers/food/drinks/cans/grape_juice = 10,
-					/obj/item/stack/sheet/mineral/uranium = 15)
-	contraband = list(/obj/item/weapon/reagent_containers/food/drinks/cans/thirteenloko = 5, /obj/item/weapon/reagent_containers/food/snacks/liquidfood = 6)
-	prices = list(/obj/item/weapon/reagent_containers/food/drinks/cans/cola = 1,/obj/item/weapon/reagent_containers/food/drinks/cans/space_mountain_wind = 1,
-					/obj/item/weapon/reagent_containers/food/drinks/cans/dr_gibb = 1,/obj/item/weapon/reagent_containers/food/drinks/cans/starkist = 1,
-					/obj/item/weapon/reagent_containers/food/drinks/cans/waterbottle = 2,/obj/item/weapon/reagent_containers/food/drinks/cans/space_up = 1,
-					/obj/item/weapon/reagent_containers/food/drinks/cans/iced_tea = 1,/obj/item/weapon/reagent_containers/food/drinks/cans/grape_juice = 1)
-	idle_power_usage = 211
 
 //This one's from bay12
 /obj/machinery/vending/cart

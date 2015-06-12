@@ -147,6 +147,74 @@ area/space/atmosalert()
 //place to another. Look at escape shuttle for example.
 //All shuttles should now be under shuttle since we have smooth-wall code.
 
+/area/swaper/
+	name = "swaper unused area"
+	icon_state = "shuttle"
+
+/area/swaper/shape1/area1
+	name = "swaper s1a1"
+	icon_state = "shuttle"
+
+/area/swaper/shape1/area2
+	name = "swaper s1a2"
+	icon_state = "shuttle"
+
+/area/swaper/shape1/area3
+	name = "swaper s1a3"
+	icon_state = "shuttle"
+
+/area/swaper/shape1/area4
+	name = "swaper s1a4"
+	icon_state = "shuttle"
+
+/area/swaper/shape2/area1
+	name = "swaper s2a1"
+	icon_state = "shuttle"
+
+/area/swaper/shape2/area2
+	name = "swaper s2a2"
+	icon_state = "shuttle"
+
+/area/swaper/shape2/area3
+	name = "swaper s2a3"
+	icon_state = "shuttle"
+
+/area/swaper/shape2/area4
+	name = "swaper s2a4"
+	icon_state = "shuttle"
+
+/area/swaper/shape3/area1
+	name = "swaper s3a1"
+	icon_state = "shuttle"
+
+/area/swaper/shape3/area2
+	name = "swaper s3a2"
+	icon_state = "shuttle"
+
+/area/swaper/shape3/area3
+	name = "swaper s3a3"
+	icon_state = "shuttle"
+
+/area/swaper/shape3/area4
+	name = "swaper s3a4"
+	icon_state = "shuttle"
+
+/area/swaper/shape4/area1
+	name = "swaper s4a1"
+	icon_state = "shuttle"
+
+/area/swaper/shape4/area2
+	name = "swaper s4a2"
+	icon_state = "shuttle"
+
+/area/swaper/shape4/area3
+	name = "swaper s4a3"
+	icon_state = "shuttle"
+
+/area/swaper/shape4/area4
+	name = "swaper s4a4"
+	icon_state = "shuttle"
+
 /area/shuttle //DO NOT TURN THE lighting_use_dynamic STUFF ON FOR SHUTTLES. IT BREAKS THINGS.
 	requires_power = 0
 	luminosity = 1
@@ -238,156 +306,6 @@ area/space/atmosalert()
 
 /area/shuttle/mining/outpost
 	icon_state = "shuttle"
-
-// Lift Areas
-/*
-/area/lift/F1L1
-	name = "Floor 1 Lift 1"
-	icon_state = "F1_1"
-
-/area/lift/F1L2
-	name = "Floor 1 Lift 2"
-	icon_state = "F1_2"
-
-/area/lift/F1L3
-	name = "Floor 1 Lift 3"
-	icon_state = "F1_3"
-
-/area/lift/F2L1
-	name = "Floor 2 Lift 1"
-	icon_state = "F2_1"
-
-/area/lift/F2L2
-	name = "Floor 2 Lift 2"
-	icon_state = "F2_2"
-
-/area/lift/F2L3
-	name = "Floor 2 Lift 3"
-	icon_state = "F2_3"
-
-/area/lift/F2L4
-	name = "Floor 2 Lift 4"
-	icon_state = "F2_4"
-
-/area/lift/F2L5
-	name = "Floor 2 Lift 5"
-	icon_state = "F2_5"
-
-/area/lift/F2L6
-	name = "Floor 2 Lift 6"
-	icon_state = "F2_6"
-
-/area/lift/F3L1
-	name = "Floor 3 Lift 1"
-	icon_state = "F3_1"
-
-/area/lift/F3L2
-	name = "Floor 3 Lift 2"
-	icon_state = "F3_2"
-
-/area/lift/F3L3
-	name = "Floor 3 Lift 3"
-	icon_state = "F3_3"
-
-/area/lift/F3L4
-	name = "Floor 3 Lift 4"
-	icon_state = "F2_4"
-
-/area/lift/F3L5
-	name = "Floor 3 Lift 5"
-	icon_state = "F3_5"
-
-/area/lift/F3L6
-	name = "Floor 3 Lift 6"
-	icon_state = "F3_6"
-
-/area/lift/F4L1
-	name = "Floor 4 Lift 1"
-	icon_state = "F4_1"
-
-/area/lift/F4L2
-	name = "Floor 4 Lift 2"
-	icon_state = "F4_2"
-
-/area/lift/F4L3
-	name = "Floor 4 Lift 3"
-	icon_state = "F4_3"
-
-/area/lift/F4L4
-	name = "Floor 4 Lift 4"
-	icon_state = "F4_4"
-
-/area/lift/F4L5
-	name = "Floor 4 Lift 5"
-	icon_state = "F4_5"
-
-/area/lift/F4L6
-	name = "Floor 4 Lift 6"
-	icon_state = "F4_6"
-
-/area/lift/F5L1
-	name = "Floor 5 Lift 1"
-	icon_state = "F5_1"
-
-/area/lift/F5L2
-	name = "Floor 5 Lift 2"
-	icon_state = "F5_2"
-
-/area/lift/F5L3
-	name = "Floor 5 Lift 3"
-	icon_state = "F5_3"
-
-/area/lift/F5L4
-	name = "Floor 5 Lift 4"
-	icon_state = "F5_4"
-
-/area/lift/F5L5
-	name = "Floor 5 Lift 5"
-	icon_state = "F5_5"
-
-/area/lift/F5L6
-	name = "Floor 5 Lift 6"
-	icon_state = "F5_6"
-
-/area/lift/F6L1
-	name = "Floor 6 Lift 1"
-	icon_state = "F6_1"
-
-/area/lift/F6L2
-	name = "Floor 6 Lift 2"
-	icon_state = "F6_2"
-
-/area/lift/F6L3
-	name = "Floor 6 Lift 3"
-	icon_state = "F6_3"
-
-/area/lift/F6L4
-	name = "Floor 6 Lift 4"
-	icon_state = "F6_4"
-
-/area/lift/F6L5
-	name = "Floor 6 Lift 5"
-	icon_state = "F6_5"
-
-/area/lift/F6L6
-	name = "Floor 6 Lift 6"
-	icon_state = "F6_6"
-
-/area/lift/F7L1
-	name = "Floor 7 Lift 1"
-	icon_state = "F7_1"
-
-/area/lift/F7L2
-	name = "Floor 7 Lift 2"
-	icon_state = "F7_2"
-
-/area/lift/F7L3
-	name = "Floor 7 Lift 3"
-	icon_state = "F7_3"
-
-/area/lift/NewFloor // Новые тёрфы для точки отправления
-	name = "New Floor"
-	icon_state = "shuttle" */
 
 /area/dream_cafe/wasteland
 	name = "Wasteland"
