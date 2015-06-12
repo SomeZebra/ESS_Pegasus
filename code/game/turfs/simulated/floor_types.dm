@@ -204,6 +204,17 @@
 						FF.update_icon() //so siding get updated properly
 
 
+/turf/simulated/floor/carpet/white
+	name = "white carpet"
+	icon_state = "carpet_white"
+
+/turf/simulated/floor/carpet/white/ragged
+	name = "old ragged carpet"
+	color = rgb(55,40,28)
+
+/turf/simulated/floor/carpet/white/bitumen
+	name = "bitumen"
+	color = rgb(28,28,28)
 
 /turf/simulated/floor/plating/ironsand/New()
 	..()
@@ -217,3 +228,43 @@
 
 /turf/simulated/floor/plating/snow/ex_act(severity)
 	return
+
+/turf/simulated/floor/plating/red_sand
+	name = "red sand"
+	icon_state = "red_sand"
+
+/turf/simulated/floor/plating/red_sand/pit
+	name = "pit"
+	icon_state = "red_pit_body"
+
+/turf/simulated/floor/plating/red_sand/pit_e
+	name = "red pit edge"
+	icon_state = "red_pit_e"
+
+/turf/simulated/floor/plating/red_sand/pit_n
+	name = "red pit edge"
+	icon_state = "red_pit_n"
+
+/turf/simulated/floor/plating/red_sand/pit_n_e
+	name = "red pit edge"
+	icon_state = "red_pit_n_e"
+
+/turf/simulated/floor/plating/red_sand/pit_n_w
+	name = "red pit edge"
+	icon_state = "red_pit_n_w"
+
+/turf/simulated/floor/plating/red_sand/pit_s
+	name = "red pit edge"
+	icon_state = "red_pit_s"
+
+/turf/simulated/floor/plating/red_sand/pit_s_e
+	name = "red pit edge"
+	icon_state = "red_pit_s_e"
+
+/turf/simulated/floor/plating/red_sand/pit_s_w
+	name = "red pit edge"
+	icon_state = "red_pit_s_w"
+
+/turf/simulated/floor/plating/red_sand/pit_w
+	name = "red pit edge"
+	icon_state = "red_pit_w"

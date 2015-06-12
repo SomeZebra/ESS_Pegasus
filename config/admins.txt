@@ -7,8 +7,8 @@
 
 Antik95 - Developer
 Linteir - Developer
-#WarFoxy - Developer
-#WarFoxy2 - Developer
+WarFoxy - Developer
+WarFoxy2 - Developer
 
 a.cache - Game Master
 Cordis - Game Master

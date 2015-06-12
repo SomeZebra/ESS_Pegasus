@@ -54,6 +54,38 @@
 	desc = "This looks similar to contraptions from earth. Could aliens be stealing our technology?"
 	icon_state = "abed"
 
+/obj/structure/bed/color/sandy
+	name = "sandstone bed"
+	desc = "This looks crumbly."
+	color = rgb(255,253,195)
+
+/obj/structure/bed/color/bronze
+	color = rgb(198,164,128)
+
+/obj/structure/bed/color/brown
+	color = rgb(141,70,0)
+
+/obj/structure/bed/color/red
+	color = rgb(218,2,10)
+
+/obj/structure/bed/color/teal
+	color = rgb(0,234,250)
+
+/obj/structure/bed/color/black
+	color = rgb(60,60,60)
+
+/obj/structure/bed/color/green
+	color = rgb(1,196,8)
+
+/obj/structure/bed/color/purp
+	color = rgb(112,2,176)
+
+/obj/structure/bed/color/blue
+	color = rgb(2,9,210)
+
+/obj/structure/bed/color/dusk
+	color = rgb(133,123,106)
+
 /*
  * Roller beds
  */

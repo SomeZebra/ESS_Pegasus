@@ -16,6 +16,38 @@
 	var/flipped = 0
 	var/health = 100
 
+/obj/structure/table/color/sandy
+	name = "sandstone table"
+	desc = "This looks crumbly."
+	color = rgb(255,253,195)
+
+/obj/structure/table/color/brown
+	color = rgb(141,70,0)
+
+/obj/structure/table/color/red
+	color = rgb(218,2,10)
+
+/obj/structure/table/color/teal
+	color = rgb(0,234,250)
+
+/obj/structure/table/color/black
+	color = rgb(60,60,60)
+
+/obj/structure/table/color/green
+	color = rgb(1,196,8)
+
+/obj/structure/table/color/purp
+	color = rgb(112,2,176)
+
+/obj/structure/table/color/blue
+	color = rgb(2,9,210)
+
+/obj/structure/table/color/bronze
+	color = rgb(198,164,128)
+
+/obj/structure/table/color/dusk
+	color = rgb(133,123,106)
+
 /obj/structure/table/woodentable
 	name = "wooden table"
 	desc = "Do not apply fire to this. Rumour says it burns easily."

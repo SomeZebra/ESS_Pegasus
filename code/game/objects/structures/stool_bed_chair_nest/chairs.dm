@@ -128,6 +128,12 @@
 /obj/structure/bed/chair/comfy/beige
 	color = rgb(255,253,195)
 
+/obj/structure/bed/chair/comfy/dusk
+	color = rgb(133,123,106)
+
+/obj/structure/bed/chair/comfy/sandy
+	color = rgb(198,164,128)
+
 /obj/structure/bed/chair/office
 	anchored = 0
 	buckle_movable = 1

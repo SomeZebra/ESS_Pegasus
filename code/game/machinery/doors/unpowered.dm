@@ -24,3 +24,7 @@
 	icon_state = "door1"
 	opacity = 1
 	density = 1
+
+/obj/machinery/door/unpowered/shuttle/open()
+	playsound(src.loc, 'sound/machines/airlock_shuttle.ogg', 30, 1)
+	return ..()

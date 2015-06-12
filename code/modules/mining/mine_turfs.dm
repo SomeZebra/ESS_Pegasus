@@ -516,3 +516,48 @@
 				attackby(R.module_state_3,R)
 			else
 				return
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand
+	name = "red sand"
+	icon_state = "red_sand"
+	icon_plating = "red_sand"
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand
+	name = "red sand"
+	icon_state = "red_sand"
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand/pit
+	name = "pit"
+	icon_state = "red_pit_body"
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand/pit_e
+	name = "red pit edge"
+	icon_state = "red_pit_e"
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand/pit_n
+	name = "red pit edge"
+	icon_state = "red_pit_n"
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand/pit_n_e
+	name = "red pit edge"
+	icon_state = "red_pit_n_e"
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand/pit_n_w
+	name = "red pit edge"
+	icon_state = "red_pit_n_w"
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand/pit_s
+	name = "red pit edge"
+	icon_state = "red_pit_s"
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand/pit_s_e
+	name = "red pit edge"
+	icon_state = "red_pit_s_e"
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand/pit_s_w
+	name = "red pit edge"
+	icon_state = "red_pit_s_w"
+
+/turf/simulated/floor/plating/airless/asteroid/red_sand/pit_w
+	name = "red pit edge"
+	icon_state = "red_pit_w"

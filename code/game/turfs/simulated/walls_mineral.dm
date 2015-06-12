@@ -37,6 +37,11 @@
 	walltype = "sandstone"
 	mineral = "sandstone"
 
+/turf/unsimulated/wall/sandstone
+	name = "sandstone wall"
+	desc = "A wall with sandstone plating."
+	icon_state = "sandstone0"
+
 /turf/simulated/wall/mineral/uranium
 	name = "uranium wall"
 	desc = "A wall with uranium plating. This is probably a bad idea."

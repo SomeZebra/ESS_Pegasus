@@ -389,6 +389,25 @@ area/space/atmosalert()
 	name = "New Floor"
 	icon_state = "shuttle" */
 
+/area/dream_cafe/wasteland
+	name = "Wasteland"
+	icon_state = "yellow"
+	requires_power = 0
+	luminosity = 1
+	lighting_use_dynamic = 0
+
+/area/dream_cafe/cafe
+	name = "Cafe of Broken Dreams"
+	icon_state = "bar"
+	luminosity = 1
+	lighting_use_dynamic = 0
+
+/area/dream_cafe/small_cafe
+	name = "Small Cafe"
+	icon_state = "bar"
+	luminosity = 1
+	lighting_use_dynamic = 0
+
 /area/shuttle/transport1/centcom
 	icon_state = "shuttle"
 	name = "\improper Transport Shuttle Centcom"
