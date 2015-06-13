@@ -79,13 +79,6 @@
 	icon_off = "fridge1"
 	req_access = null
 
-/obj/structure/closet/secure_closet/freezer/indiana/New()
-	..()
-	new /obj/item/weapon/melee/chainofcommand(src)
-	new /obj/item/clothing/head/fluff/bruce_hachert(src)
-	new /obj/item/clothing/shoes/jackboots/fluff/kecer_eldraran(src)
-	new /obj/item/clothing/under/fluff/ana_issek_1(src)
-
 /obj/structure/closet/secure_closet/freezer/money
 	name = "freezer"
 	icon_state = "fridge1"

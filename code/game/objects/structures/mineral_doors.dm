@@ -241,14 +241,6 @@
 				new/obj/item/stack/sheet/wood(get_turf(src))
 		del(src)
 
-//÷ветные дерев€нные двери
-/*/obj/structure/mineral_door/wood/white
-	Open()
-
-
-	Close()*/
-
-
 /obj/structure/mineral_door/resin
 	mineralType = "resin"
 	hardness = 1.5

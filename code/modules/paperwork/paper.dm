@@ -86,6 +86,7 @@
 		user << browse("<HTML><HEAD><TITLE>[name]</TITLE></HEAD><BODY>[info][stamps]</BODY></HTML>", "window=[name]")
 		onclose(user, "[name]")
 
+
 /obj/item/weapon/paper/verb/rename()
 	set name = "Rename paper"
 	set category = "Object"
@@ -148,6 +149,7 @@
 					H.lip_style = null
 					H.update_body()
 
+
 /obj/item/weapon/paper/proc/addtofield(var/id, var/text, var/links = 0)
 	var/locid = 0
 	var/laststart = 1
@@ -209,7 +211,6 @@
 
 /obj/item/weapon/paper/proc/parsepencode(var/t, var/obj/item/weapon/pen/P, mob/user as mob, var/iscrayon = 0)
 //	t = copytext(sanitize(t),1,MAX_MESSAGE_LEN)
-
 	t = replacetext(t, "\[center\]", "<center>")
 	t = replacetext(t, "\[/center\]", "</center>")
 	t = replacetext(t, "\[br\]", "<BR>")
@@ -224,12 +225,15 @@
 	t = replacetext(t, "\[sign\]", "<font face=\"[signfont]\"><i>[get_signature(P, user)]</i></font>")
 	t = replacetext(t, "\[field\]", "<span class=\"paper_field\"></span>")
 
+
 	t = replacetext(t, "\[h1\]", "<H1>")
 	t = replacetext(t, "\[/h1\]", "</H1>")
 	t = replacetext(t, "\[h2\]", "<H2>")
 	t = replacetext(t, "\[/h2\]", "</H2>")
 	t = replacetext(t, "\[h3\]", "<H3>")
 	t = replacetext(t, "\[/h3\]", "</H3>")
+
+
 
 	if(!iscrayon)
 		t = replacetext(t, "\[*\]", "<li>")
@@ -338,7 +342,7 @@
 			usr << "<span class='info'>You're trying to find a free place on paper, but can't!</span>"
 			return
 
-		var/t =  strip_html_simple(input("Enter what you want to write:", "Write", null, null) as message, free_space)
+		var/t =  sanitize_paper(input("Enter what you want to write:", "Write", null, null) as message)
 
 		if(!t)
 			return
@@ -354,6 +358,8 @@
 		// if paper is not in usr, then it must be near them, or in a clipboard or folder, which must be in or near usr
 		if(src.loc != usr && !src.Adjacent(usr) && !((istype(src.loc, /obj/item/weapon/clipboard) || istype(src.loc, /obj/item/weapon/folder)) && (src.loc.loc == usr || src.loc.Adjacent(usr)) ) )
 			return
+
+
 /*
 		t = checkhtml(t)
 
@@ -367,7 +373,7 @@
 */
 		var last_fields_value = fields
 
-		t = html_encode(t)
+		//t = html_encode(t)
 		t = replacetext(t, "\n", "<BR>")
 		t = parsepencode(t, i, usr, iscrayon) // Encode everything from pencode to html
 
@@ -548,3 +554,5 @@
 
 /obj/item/weapon/paper/crumpled/bloody
 	icon_state = "scrap_bloodied"
+
+

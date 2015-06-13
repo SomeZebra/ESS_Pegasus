@@ -22,43 +22,74 @@
  * Text sanitization
  */
 
+
 //Simply removes < and > and limits the length of the message
 /proc/strip_html_simple(var/t,var/limit=MAX_MESSAGE_LEN)
-	var/list/strip_chars = list("<",">")
+	var/list/strip_chars = list("<"="",">"="","ï¿½"="ï¿½","ÿ"="____255_")
 	t = copytext(t,1,limit)
 	for(var/char in strip_chars)
 		var/index = findtext(t, char)
 		while(index)
-			t = copytext(t, 1, index) + copytext(t, index+1)
+			t = copytext(t, 1, index) + strip_chars[char] + copytext(t, index+1)
 			index = findtext(t, char)
+	sanitize(t)
 	return t
 
 //Removes a few problematic characters
-/proc/sanitize_simple(var/t,var/list/repl_chars = list("\n"="#","\t"="#","ï¿½"="ï¿½","ÿ"="____223_"))//255 or 1103
+/proc/sanitize_simple(var/t,var/list/repl_chars = list("<"="",">"="","\n"="#","\t"="#","ï¿½"="ï¿½","ÿ"="____255_"))
 	for(var/char in repl_chars)
 		var/index = findtext(t, char)
 		while(index)
 			t = copytext(t, 1, index) + repl_chars[char] + copytext(t, index+1)
 			index = findtext(t, char)
 	t = html_encode(t)
-	var/index = findtext(t, "____223_")//1103
+	var/index = findtext(t, "____255_")
 	while(index)
-		t = copytext(t, 1, index) + "ß" + copytext(t, index+8)//&#255;
-		index = findtext(t, "____223_")//1103
+		t = copytext(t, 1, index) + "&#255;" + copytext(t, index+8) //&#255; &#1071;
+		index = findtext(t, "____255_")
 	return t
 
-/proc/sanitize_simple_uni(var/t,var/list/repl_chars = list("\n"="#","\t"="#","ÿ"="____223_"))//255
+/proc/sanitize_simple_uni(var/t,var/list/repl_chars = list("\n"="#","\t"="#","ÿ"="____255_"))
 	for(var/char in repl_chars)
 		var/index = findtext(t, char)
 		while(index)
 			t = copytext(t, 1, index) + repl_chars[char] + copytext(t, index+1)
 			index = findtext(t, char)
 	t = html_encode(t)
-	var/index = findtext(t, "____223_")//1103
+	var/index = findtext(t, "____255_")
 	while(index)
-		t = copytext(t, 1, index) + "ß" + copytext(t, index+8)//&#255;
-		index = findtext(t, "____223_")//1103
+		t = copytext(t, 1, index) + "&#1103;" + copytext(t, index+8)
+		index = findtext(t, "____255_")
 	return t
+
+/proc/sanitize_paper_message(var/t,var/list/repl_chars = list("<"="",">"="","ÿ"="____255_"))
+	for(var/char in repl_chars)
+		var/index = findtext(t, char)
+
+		while(index)
+			t = copytext(t, 1, index) + repl_chars[char] + copytext(t, index+1)
+			index = findtext(t, char)
+	t = html_encode(t)
+	var/index = findtext(t, "____255_")
+	while(index)
+		t = copytext(t, 1, index) + "&#1103;" + copytext(t, index+8)
+		index = findtext(t, "____255_")
+	return t
+
+/proc/sanitize_flawor_message(var/t,var/list/repl_chars = list("\n"=" ","ÿ"="____255_"))
+	for(var/char in repl_chars)
+		var/index = findtext(t, char)
+
+		while(index)
+			t = copytext(t, 1, index) + repl_chars[char] + copytext(t, index+1)
+			index = findtext(t, char)
+	t = html_encode(t)
+	var/index = findtext(t, "____255_")
+	while(index)
+		t = copytext(t, 1, index) + "&#255;" + copytext(t, index+8)
+		index = findtext(t, "____255_")
+	return t
+
 
 /proc/readd_quotes(var/t)
 	var/list/repl_chars = list("&#34;" = "\"")
@@ -71,7 +102,18 @@
 
 //Runs byond's sanitization proc along-side sanitize_simple
 /proc/sanitize(var/t,var/list/repl_chars = null)
-	return html_encode(sanitize_simple(t,repl_chars))
+	return sanitize_simple(t,repl_chars)
+
+
+/proc/sanitize_uni(var/t,var/list/repl_chars = null)
+	return sanitize_simple_uni(t,repl_chars)
+
+/proc/sanitize_paper(var/t,var/list/repl_chars = null)
+	return sanitize_paper_message(t,repl_chars)
+
+
+/proc/sanitize_flawor(var/t,var/list/repl_chars = null)
+	return sanitize_flawor_message(t,repl_chars)
 
 //Runs sanitize and strip_html_simple
 //I believe strip_html_simple() is required to run first to prevent '<' from displaying as '&lt;' after sanitize() calls byond's html_encode()
