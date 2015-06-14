@@ -916,7 +916,10 @@ proc/anim(turf/location as turf,target as mob|obj,a_icon,a_icon_state as text,fl
 					if(turftoleave)
 						fromupdate += T.ChangeTurf(turftoleave)
 					else
-						T.ChangeTurf(/turf/space)
+						if (T.z == 1)
+							T.ChangeTurf(/turf/simulated/floor/plating/airless/planetsurface)
+						else
+							T.ChangeTurf(/turf/space)
 
 					refined_src -= T
 					refined_trg -= B

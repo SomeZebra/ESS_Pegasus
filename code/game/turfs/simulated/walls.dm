@@ -184,7 +184,6 @@
 	switch(severity)
 		if(1.0)
 			src.ChangeTurf(/turf/space)
-			return
 		if(2.0)
 			if(prob(75))
 				take_damage(rand(150, 250))
@@ -193,6 +192,9 @@
 		if(3.0)
 			take_damage(rand(0, 250))
 		else
+
+	if (src.z == 5)
+		src.ChangeTurf(/turf/simulated/floor/wood)
 	return
 
 /turf/simulated/wall/blob_act()

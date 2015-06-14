@@ -10,6 +10,9 @@ var/global/datum/shuttle_controller/shuttle_controller
 	//process ferry shuttles
 	for (var/datum/shuttle/ferry/shuttle in process_shuttles)
 		if (shuttle.process_state)
+		//	shuttle.area_station.luminosity = 0
+			//requires_power = 1
+		//	lighting_use_dynamic = 1
 			shuttle.process()
 
 

@@ -59,6 +59,8 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 	var/rad_shielded = 0
 
+
+
 /*Adding a wizard area teleport list because motherfucking lag -- Urist*/
 /*I am far too lazy to make it a proper list of areas so I'll just make it run the usual telepot routine at the start of the game*/
 var/list/teleportlocs = list()
@@ -249,8 +251,15 @@ area/space/atmosalert()
 	name = "\improper Escape Pod One"
 	music = "music/escape.ogg"
 
+
+
 /area/shuttle/escape_pod1/station
+
 	icon_state = "shuttle2"
+
+		//luminosity = 0
+		//requires_power = 1
+		//lighting_use_dynamic = 1
 
 /area/shuttle/escape_pod1/centcom
 	icon_state = "shuttle"
@@ -264,6 +273,9 @@ area/space/atmosalert()
 
 /area/shuttle/escape_pod2/station
 	icon_state = "shuttle2"
+	luminosity = 0
+	requires_power = 1
+	lighting_use_dynamic = 1
 
 /area/shuttle/escape_pod2/centcom
 	icon_state = "shuttle"
@@ -277,6 +289,9 @@ area/space/atmosalert()
 
 /area/shuttle/escape_pod3/station
 	icon_state = "shuttle2"
+	luminosity = 0
+	requires_power = 1
+	lighting_use_dynamic = 1
 
 /area/shuttle/escape_pod3/centcom
 	icon_state = "shuttle"
@@ -290,6 +305,9 @@ area/space/atmosalert()
 
 /area/shuttle/escape_pod5/station
 	icon_state = "shuttle2"
+	luminosity = 0
+	requires_power = 1
+	lighting_use_dynamic = 1
 
 /area/shuttle/escape_pod5/centcom
 	icon_state = "shuttle"
@@ -303,6 +321,9 @@ area/space/atmosalert()
 
 /area/shuttle/mining/station
 	icon_state = "shuttle2"
+	luminosity = 0
+	requires_power = 1
+	lighting_use_dynamic = 1
 
 /area/shuttle/mining/outpost
 	icon_state = "shuttle"
@@ -333,6 +354,9 @@ area/space/atmosalert()
 /area/shuttle/transport1/station
 	icon_state = "shuttle"
 	name = "\improper Transport Shuttle"
+	luminosity = 0
+	requires_power = 1
+	lighting_use_dynamic = 1
 
 /area/shuttle/alien/base
 	icon_state = "shuttle"
@@ -364,6 +388,9 @@ area/space/atmosalert()
 /area/shuttle/specops/station
 	name = "\improper Special Ops Shuttle"
 	icon_state = "shuttlered2"
+	luminosity = 0
+	requires_power = 1
+	lighting_use_dynamic = 1
 
 /area/shuttle/syndicate_elite/mothership
 	name = "\improper Merc Elite Shuttle"
@@ -380,6 +407,9 @@ area/space/atmosalert()
 /area/shuttle/administration/station
 	name = "\improper Administration Shuttle"
 	icon_state = "shuttlered2"
+	luminosity = 0
+	requires_power = 1
+	lighting_use_dynamic = 1
 
 /area/shuttle/thunderdome
 	name = "honk"
@@ -602,6 +632,9 @@ area/space/atmosalert()
 /area/syndicate_station/arrivals_dock
 	name = "\improper docked with station"
 	icon_state = "shuttle"
+	luminosity = 0
+	requires_power = 1
+	lighting_use_dynamic = 1
 
 /area/syndicate_station/maint_dock
 	name = "\improper docked with station"
@@ -2299,3 +2332,10 @@ var/list/the_station_areas = list (
 
 		spawn(60) .()
 
+/area/limiter
+	name ="limiter"
+	icon_state = "engine"
+
+	Entered()
+		..()
+		usr.gib()

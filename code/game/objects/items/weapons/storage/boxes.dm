@@ -191,6 +191,62 @@
 		new /obj/item/ammo_casing/shotgun/pellet(src)
 		new /obj/item/ammo_casing/shotgun/pellet(src)
 
+/obj/item/weapon/storage/box/wardenammunition/c45m
+	name = "warden's supplies"
+	desc = "It has a picture of a gun and several warning symbols on the front.<br>WARNING: Live ammunition. Misuse may result in serious injury or death."
+
+	New()
+		..()
+		new /obj/item/ammo_magazine/c45m(src)
+		new /obj/item/ammo_magazine/c45m(src)
+		new /obj/item/ammo_magazine/c45m(src)
+		new /obj/item/ammo_magazine/c45m(src)
+		new /obj/item/ammo_magazine/c45m(src)
+		new /obj/item/ammo_magazine/c45m(src)
+		new /obj/item/ammo_magazine/c45m(src)
+
+obj/item/weapon/storage/box/wardenammunition/a12mm
+	name = "warden's supplies"
+	desc = "It has a picture of a gun and several warning symbols on the front.<br>WARNING: Live ammunition. Misuse may result in serious injury or death."
+
+	New()
+		..()
+		new /obj/item/ammo_magazine/a12mm(src)
+		new /obj/item/ammo_magazine/a12mm(src)
+		new /obj/item/ammo_magazine/a12mm(src)
+		new /obj/item/ammo_magazine/a12mm(src)
+		new /obj/item/ammo_magazine/a12mm(src)
+		new /obj/item/ammo_magazine/a12mm(src)
+		new /obj/item/ammo_magazine/a12mm(src)
+
+obj/item/weapon/storage/box/wardenammunition/c762
+	name = "warden's supplies"
+	desc = "It has a picture of a gun and several warning symbols on the front.<br>WARNING: Live ammunition. Misuse may result in serious injury or death."
+
+	New()
+		..()
+		new /obj/item/ammo_magazine/c762(src)
+		new /obj/item/ammo_magazine/c762(src)
+		new /obj/item/ammo_magazine/c762(src)
+		new /obj/item/ammo_magazine/c762(src)
+		new /obj/item/ammo_magazine/c762(src)
+		new /obj/item/ammo_magazine/c762(src)
+		new /obj/item/ammo_magazine/c762(src)
+
+obj/item/weapon/storage/box/wardenammunition/a556
+	name = "warden's supplies"
+	desc = "It has a picture of a gun and several warning symbols on the front.<br>WARNING: Live ammunition. Misuse may result in serious injury or death."
+
+	New()
+		..()
+		new /obj/item/ammo_magazine/a556(src)
+		new /obj/item/ammo_magazine/a556(src)
+		new /obj/item/ammo_magazine/a556(src)
+		new /obj/item/ammo_magazine/a556(src)
+		new /obj/item/ammo_magazine/a556(src)
+		new /obj/item/ammo_magazine/a556(src)
+		new /obj/item/ammo_magazine/a556(src)
+
 /obj/item/weapon/storage/box/flashshells
 	name = "box of illumination shells"
 	desc = "It has a picture of a gun and several warning symbols on the front.<br>WARNING: Live ammunition. Misuse may result in serious injury or death."

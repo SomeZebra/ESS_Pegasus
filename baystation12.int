@@ -1,19 +1,11 @@
 // BEGIN_INTERNALS
 /*
-MAP_ICON_TYPE: 0
-<<<<<<< HEAD
-WINDOW: icons\mob\animal.dmi;code\game\area\Space Station 13 areas.dm;code\modules\mining\AASwapers.dm;code\modules\power\AAGraviGen.dm;code\game\machinery\vending.dm;code\__HELPERS\text.dm;code\game\objects\items\devices\PDA\PDA.dm;maps\exodus-1.dmm;maps\exodus-5.dmm;maps\exodus-7.dmm;maps\exodus-8.dmm;icons\turf\floors.dmi;icons\turf\desert.dmi;code\game\turfs\simulated\floor_types.dm
-LAST_COMPILE_VERSION: 506.1247
-DIR: code code\datums\diseases code\datums\spells code\game code\game\area code\game\dna code\game\dna\genes code\game\gamemodes code\game\gamemodes\calamity code\game\gamemodes\changeling code\game\machinery code\game\objects code\game\objects\items code\game\objects\items\devices code\game\objects\items\devices\PDA code\game\turfs code\game\turfs\simulated code\modules code\modules\mining icons icons\turf maps 
-FILE: code\game\turfs\simulated\floor_types.dm
-LAST_COMPILE_TIME: 1434150421
-=======
-WINDOW: icons\mob\animal.dmi;code\game\area\Space Station 13 areas.dm;code\modules\mining\AASwapers.dm;code\modules\power\AAGraviGen.dm;code\game\machinery\vending.dm;code\__HELPERS\text.dm;code\game\objects\items\devices\PDA\PDA.dm;maps\exodus-1.dmm;maps\exodus-5.dmm;maps\exodus-7.dmm;maps\exodus-8.dmm;icons\turf\floors.dmi;icons\turf\desert.dmi
-LAST_COMPILE_VERSION: 506.1247
-DIR: code code\datums\diseases code\datums\spells code\game code\game\area code\game\dna code\game\dna\genes code\game\gamemodes code\game\gamemodes\calamity code\game\gamemodes\changeling code\game\machinery code\game\objects code\game\objects\items code\game\objects\items\devices code\game\objects\items\devices\PDA code\modules code\modules\mining icons icons\turf maps 
-FILE: maps\exodus-8.dmm
-LAST_COMPILE_TIME: 1434149886
->>>>>>> origin/master
+LAST_COMPILE_TIME: 1434300551
+DIR: code code\__HELPERS code\controllers code\datums code\datums\diseases code\datums\spells code\game code\game\area code\game\dna code\game\dna\genes code\game\gamemodes code\game\gamemodes\calamity code\game\gamemodes\changeling code\game\gamemodes\cult code\game\gamemodes\events code\game\jobs code\game\machinery code\game\machinery\bots code\game\machinery\computer code\game\machinery\computer3 code\game\machinery\computer3\computers code\game\objects code\game\objects\items code\game\objects\items\weapons code\modules code\modules\admin code\modules\admin\verbs code\modules\clothing code\modules\clothing\under maps 
 AUTO_FILE_DIR: OFF
+MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 507.1286
+WINDOW: code\game\area\Space Station 13 areas.dm;code\game\area\areas.dm;code\controllers\shuttle_controller.dm;code\controllers\lighting_controller.dm;maps\exodus-1.dmm;maps\exodus-2.dmm;code\game\objects\items\weapons\cards_ids.dm;code\global.dm;code\game\machinery\turret_control.dm;code\game\machinery\bots\secbot.dm;code\game\machinery\computer\security.dm;code\game\machinery\computer3\program.dm;code\game\machinery\computer3\computers\security.dm
+FILE: maps\exodus-1.dmm
 */
 // END_INTERNALS

@@ -173,9 +173,9 @@
 	icon_state = "asteroid"
 //	floor_type = /obj/item/stack/tile/wood
 
-	ex_act(severity)
-		..()
-		src.ChangeTurf(/turf/simulated/floor/wood)
+//	ex_act(severity)
+//		..()
+//		src.ChangeTurf(/turf/simulated/floor/wood)
 
 
 /turf/simulated/floor/beach/water
