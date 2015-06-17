@@ -29,3 +29,6 @@
 /obj/item/clothing/mask/gas/voice/New()
 	..()
 	changer = new(src)
+
+/obj/item/clothing/mask/gas/voice/hos
+	icon_state = "officermask"

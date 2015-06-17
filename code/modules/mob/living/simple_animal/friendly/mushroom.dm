@@ -16,6 +16,24 @@
 	harm_intent_damage = 5
 	var/datum/seed/seed
 
+/mob/living/simple_animal/HosSpider
+	name = "Eliza"
+	desc = "Giant spider"
+	icon_state = "guard"
+	icon_living = "guard"
+	icon_dead = "guard_dead"
+	small = 1
+	speak_chance = 0
+	turns_per_move = 1
+	maxHealth = 5
+	health = 5
+	meat_type = /obj/item/weapon/reagent_containers/food/snacks/hugemushroomslice
+	response_help  = "pets"
+	response_disarm = "gently pushes aside"
+	response_harm   = "whacks"
+	harm_intent_damage = 5
+	var/datum/seed/seed
+
 /mob/living/simple_animal/mushroom/verb/spawn_spores()
 
 	set name = "Explode"

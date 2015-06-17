@@ -33,6 +33,33 @@ var/global/list/uneatable = list(
 	var/teleport_del = 0
 	var/last_warning
 
+/obj/machinery/singularity/ForBomb
+	icon = 'icons/effects/224x224.dmi'
+	icon_state = "singularity_s7"
+	pixel_x = -96
+	pixel_y = -96
+	grav_pull = 10
+	energy = 2500
+	consume_range = 4
+	allowed_size = 9
+	current_size = 9
+	dissipate = 0
+/obj/machinery/singularity/ForBomb/New(loc, var/starting_energy = 2500, var/temp = 0)
+	//CARN: admin-alert for chuckle-fuckery.
+	energy = 2500
+	admin_investigate_setup()
+
+	src.energy = starting_energy
+	if(temp)
+		spawn(temp)
+			del(src)
+	..()
+	for(var/obj/machinery/power/singularity_beacon/singubeacon in machines)
+		if(singubeacon.active)
+			target = singubeacon
+			break
+	return
+
 /obj/machinery/singularity/New(loc, var/starting_energy = 50, var/temp = 0)
 	//CARN: admin-alert for chuckle-fuckery.
 	admin_investigate_setup()

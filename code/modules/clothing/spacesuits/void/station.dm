@@ -33,6 +33,22 @@
 	item_state = "mining_voidsuit"
 	armor = list(melee = 50, bullet = 5, laser = 20,energy = 5, bomb = 55, bio = 100, rad = 20)
 
+//Hos rig
+/obj/item/clothing/suit/space/void/hos
+	icon_state = "rig_hos"
+	name = "hos voidsuit"
+	desc = "A special suit that protects against bullets and lasers. Has reinforced plating."
+	item_state = "mining_voidsuit"
+	armor = list(melee = 50, bullet = 70, laser = 70,energy = 70, bomb = 55, bio = 100, rad = 20)
+
+obj/item/clothing/head/helmet/space/void/hos
+	name = "hos voidsuit helmet"
+	desc = "A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating."
+	icon_state = "rig0_hos"
+	item_state = "rig0_hos"
+	armor = list(melee = 50, bullet = 70, laser = 70,energy = 70, bomb = 55, bio = 100, rad = 20)
+	light_overlay = "helmet_light_dual"
+
 //Medical Rig
 /obj/item/clothing/head/helmet/space/void/medical
 	name = "medical voidsuit helmet"

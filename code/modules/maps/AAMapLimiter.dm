@@ -1,5 +1,5 @@
 /obj/structure/maplimiter
-	name = "\improper AI core"
+	name = "Crater wall"
 	icon = 'icons/turf/walls.dmi'
 	icon_state = "rock"
 	density = 1

@@ -125,6 +125,27 @@
 		new /obj/item/clothing/head/beret/sec/hos(src)
 		return
 
+/obj/structure/closet/secure_closet/hos2
+	name = "head of security's locker"
+	req_access = list(access_hos)
+	icon_state = "hossecure1"
+	icon_closed = "hossecure"
+	icon_locked = "hossecure1"
+	icon_opened = "hossecureopen"
+	icon_broken = "hossecurebroken"
+	icon_off = "hossecureoff"
+
+	New()
+		..()
+		if(prob(50))
+			new /obj/item/weapon/storage/backpack/security(src)
+		else
+			new /obj/item/weapon/storage/backpack/satchel_sec(src)
+		new /obj/item/clothing/suit/space/void/hos(src)
+		new /obj/item/clothing/head/helmet/space/void/hos(src)
+		new /obj/item/clothing/mask/gas/voice/hos(src)
+		new /obj/item/clothing/mask/gas/dual(src)
+		return
 
 
 /obj/structure/closet/secure_closet/warden

@@ -1,11 +1,10 @@
 // BEGIN_INTERNALS
 /*
-LAST_COMPILE_TIME: 1434300551
-DIR: code code\__HELPERS code\controllers code\datums code\datums\diseases code\datums\spells code\game code\game\area code\game\dna code\game\dna\genes code\game\gamemodes code\game\gamemodes\calamity code\game\gamemodes\changeling code\game\gamemodes\cult code\game\gamemodes\events code\game\jobs code\game\machinery code\game\machinery\bots code\game\machinery\computer code\game\machinery\computer3 code\game\machinery\computer3\computers code\game\objects code\game\objects\items code\game\objects\items\weapons code\modules code\modules\admin code\modules\admin\verbs code\modules\clothing code\modules\clothing\under maps 
+LAST_COMPILE_TIME: 1434543385
+DIR: code code\controllers code\datums code\datums\diseases code\datums\spells code\game code\game\area code\game\dna\genes code\game\gamemodes\calamity code\game\gamemodes\changeling code\game\gamemodes\cult code\game\objects\random code\modules maps 
 AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 507.1286
-WINDOW: code\game\area\Space Station 13 areas.dm;code\game\area\areas.dm;code\controllers\shuttle_controller.dm;code\controllers\lighting_controller.dm;maps\exodus-1.dmm;maps\exodus-2.dmm;code\game\objects\items\weapons\cards_ids.dm;code\global.dm;code\game\machinery\turret_control.dm;code\game\machinery\bots\secbot.dm;code\game\machinery\computer\security.dm;code\game\machinery\computer3\program.dm;code\game\machinery\computer3\computers\security.dm
-FILE: maps\exodus-1.dmm
+WINDOW: code\game\area\Space Station 13 areas.dm;code\game\area\areas.dm;code\controllers\shuttle_controller.dm;code\controllers\lighting_controller.dm
 */
 // END_INTERNALS

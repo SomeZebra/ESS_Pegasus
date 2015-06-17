@@ -42,7 +42,7 @@
 
 	anim(get_turf(H), H, 'icons/effects/effects.dmi', "electricity",null,20,null)
 
-	H.visible_message("[H.name] vanishes into thin air!",1)
+	H.visible_message("[H.name] vanishes into thin air!")
 
 /obj/item/rig_module/stealth_field/deactivate()
 
@@ -58,7 +58,7 @@
 	anim(get_turf(H), H, 'icons/effects/effects.dmi', "electricity",null,20,null)
 
 	for(var/mob/O in oviewers(H))
-		O.show_message("[H.name] appears from thin air!",1)
+		O.show_message("[H.name] appears from thin air!")
 	playsound(get_turf(H), 'sound/effects/stealthoff.ogg', 75, 1)
 
 
@@ -181,6 +181,54 @@
 
 /obj/item/rig_module/self_destruct/small/engage()
 	explosion(get_turf(src), 0, 0, 3, 4)
+	if(holder && holder.wearer)
+		holder.wearer.drop_from_inventory(src)
+		del(holder)
+	del(src)
+
+
+
+/obj/item/rig_module/self_destruct/true
+	name = "true self-destruct module"
+	desc = "Oh my God, Captain. A bomb."
+	usable = 1
+	active = 1
+	permanent = 1
+
+	engage_string = "Detonate"
+
+	interface_name = "true dead man's switch"
+	interface_desc = "An integrated self-destruct module. When the wearer dies, so does the surrounding area. Do not press this button."
+
+
+
+/obj/item/rig_module/self_destruct/true/activate()
+	return
+
+/obj/item/rig_module/self_destruct/true/deactivate()
+	return
+
+/obj/item/rig_module/self_destruct/true/process()
+
+	// Not being worn, leave it alone.
+	if(!holder || !holder.wearer || !holder.wearer.wear_suit == holder)
+		return 0
+
+	//OH SHIT.
+	if(holder.wearer.stat == 2)
+		engage()
+
+/obj/item/rig_module/self_destruct/true/engage()
+	var/turf/T = get_turf(src)
+	new /obj/machinery/singularity/ForBomb(T, 2500)
+	if(holder && holder.wearer)
+		holder.wearer.drop_from_inventory(src)
+		del(holder)
+	del(src)
+
+/obj/item/rig_module/self_destruct/true/small/engage()
+	var/turf/T = get_turf(src)
+	new /obj/machinery/singularity/ForBomb(T, 2500)
 	if(holder && holder.wearer)
 		holder.wearer.drop_from_inventory(src)
 		del(holder)
