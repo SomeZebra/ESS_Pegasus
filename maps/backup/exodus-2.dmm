@@ -1116,7 +1116,7 @@
 "vx" = (/turf/unsimulated/floor{icon_state = "green"; dir = 8},/area/centcom/control)
 "vy" = (/turf/unsimulated/floor{icon_state = "floor"},/area/centcom/control)
 "vz" = (/turf/unsimulated/wall,/area/centcom/test)
-"vA" = (/obj/item/clothing/glasses/sunglasses/sechud/tactical,/obj/item/clothing/mask/gas/voice/hos,/obj/item/clothing/under/chameleon,/obj/item/weapon/card/id/unlimited,/obj/item/clothing/accessory/holster/waist,/obj/item/weapon/gun/projectile/revolver/mateba,/obj/item/weapon/gun/projectile/automatic/l6_saw,/obj/item/weapon/gun/energy/captain,/obj/item/weapon/shield/energy,/turf/simulated/floor{dir = 2; icon_state = "arrival"},/area/space)
+"vA" = (/obj/item/clothing/glasses/sunglasses/sechud/tactical,/obj/item/clothing/mask/gas/voice/hos,/obj/item/clothing/under/chameleon,/obj/item/weapon/card/id/unlimited,/obj/item/weapon/rig/empress,/obj/item/weapon/storage/backpack/empress,/obj/item/clothing/accessory/holster/waist,/obj/item/weapon/gun/projectile/revolver/mateba,/obj/item/weapon/gun/projectile/automatic/l6_saw,/obj/item/weapon/gun/energy/captain,/obj/item/weapon/shield/energy,/turf/simulated/floor{dir = 2; icon_state = "arrival"},/area/space)
 "vB" = (/turf/simulated/floor{dir = 2; icon_state = "arrival"},/area/space)
 "vC" = (/turf/unsimulated/floor{icon_state = "vault"; dir = 8},/area/centcom/specops)
 "vD" = (/obj/structure/table/rack,/obj/item/weapon/gun/energy/gun/nuclear,/obj/item/weapon/gun/energy/gun/nuclear,/obj/item/weapon/gun/energy/gun/nuclear,/turf/unsimulated/floor{icon_state = "vault"; dir = 8},/area/centcom)
