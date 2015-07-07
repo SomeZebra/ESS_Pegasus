@@ -1,9 +1,10 @@
 // BEGIN_INTERNALS
 /*
+LAST_COMPILE_TIME: 1434543385
+DIR: code code\controllers code\datums code\datums\diseases code\datums\spells code\game code\game\area code\game\dna\genes code\game\gamemodes\calamity code\game\gamemodes\changeling code\game\gamemodes\cult code\game\objects\random code\modules maps 
+AUTO_FILE_DIR: OFF
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 507.1286
-DIR: code code\controllers code\datums code\datums\diseases code\datums\spells code\game code\game\area code\game\dna\genes code\game\gamemodes\calamity code\game\gamemodes\changeling code\game\gamemodes\cult code\game\objects\random code\modules maps 
-LAST_COMPILE_TIME: 1434543385
-AUTO_FILE_DIR: OFF
+WINDOW: code\game\area\Space Station 13 areas.dm;code\game\area\areas.dm;code\controllers\shuttle_controller.dm;code\controllers\lighting_controller.dm
 */
 // END_INTERNALS
