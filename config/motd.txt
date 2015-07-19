@@ -1,4 +1,9 @@
-<h1>Welcome to NSS: Pegasus!</h1>
+<h1>Добро пожаловать на <b>NSS: Pegasus</b> проекта <b>GhostWaltz</b>!</h1>
 
--<i>This server is running <a href="http://baystation12.net/">Baystation 12's</a> modification of the <a href="http://ss13.eu/">/tg/station13</a> SS13 code.</i>
-
+-<i>Этот сервер работает на модификации билда <a href="http://baystation12.net/">Baystation 12's</a>.</i>
+<ul>
+	<li>Наш <a href='https://www.ghostwaltz.ru/'>форум</a></li>
+	<li><a href='https://www.ghostwaltz.ru/viewtopic.php?f=19&t=13'>Правила сервера</a></li>
+	<li>По вопросам бана/разбана писать <a href='https://www.ghostwaltz.ru/viewtopic.php?f=15&t=3'>сюда</a>.</li>
+	<li>Вики пока в разработке</li>
+</ul>
