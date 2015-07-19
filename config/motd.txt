@@ -1,9 +1,9 @@
-п»ї<h1>Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ РЅР° <b>NSS: Pegasus</b> РїСЂРѕРµРєС‚Р° <b>GhostWaltz</b>!</h1>
+<h1>Добро пожаловать на <b>NSS: Pegasus</b> проекта <b>GhostWaltz</b>!</h1>
 
--<i>Р­С‚РѕС‚ СЃРµСЂРІРµСЂ СЂР°Р±РѕС‚Р°РµС‚ РЅР° РјРѕРґРёС„РёРєР°С†РёРё Р±РёР»РґР° <a href="http://baystation12.net/">Baystation 12's</a>.</i>
+-<i>Этот сервер работает на модификации билда <a href="http://baystation12.net/">Baystation 12's</a>.</i>
 <ul>
-	<li>РќР°С€ <a href='https://www.ghostwaltz.ru/'>С„РѕСЂСѓРј</a></li>
-	<li><a href='https://www.ghostwaltz.ru/viewtopic.php?f=19&t=13'>РџСЂР°РІРёР»Р° СЃРµСЂРІРµСЂР°</a></li>
-	<li>РџРѕ РІРѕРїСЂРѕСЃР°Рј Р±Р°РЅР°/СЂР°Р·Р±Р°РЅР° РїРёСЃР°С‚СЊ <a href='https://www.ghostwaltz.ru/viewtopic.php?f=15&t=3'>СЃСЋРґР°</a>.</li>
-	<li>Р’РёРєРё РїРѕРєР° РІ СЂР°Р·СЂР°Р±РѕС‚РєРµ</li>
+	<li>Наш <a href='https://www.ghostwaltz.ru/'>форум</a></li>
+	<li><a href='https://www.ghostwaltz.ru/viewtopic.php?f=19&t=13'>Правила сервера</a></li>
+	<li>По вопросам бана/разбана писать <a href='https://www.ghostwaltz.ru/viewtopic.php?f=15&t=3'>сюда</a>.</li>
+	<li>Вики пока в разработке</li>
 </ul>
