@@ -1,4 +1,4 @@
-<h1>Добро пожаловать на <b>NSS: Pegasus</b> проекта <b>GhostWaltz</b>!</h1>
+﻿<h1>Добро пожаловать на <b>NSS: Pegasus</b> проекта <b>GhostWaltz</b>!</h1>
 
 -<i>Этот сервер работает на модификации билда <a href="http://baystation12.net/">Baystation 12's</a>.</i>
 <ul>
