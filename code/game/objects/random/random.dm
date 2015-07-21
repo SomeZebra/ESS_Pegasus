@@ -100,7 +100,7 @@
 	desc = "This is a random piece of technology supplies."
 	icon = 'icons/obj/power.dmi'
 	icon_state = "cell"
-	spawn_nothing_percentage = 50
+	//spawn_nothing_percentage = 50
 	item_to_spawn()
 		return pick(prob(3);/obj/random/powercell,\
 					prob(2);/obj/random/technology_scanner,\
@@ -119,7 +119,7 @@
 	desc = "This is a random medical item."
 	icon = 'icons/obj/items.dmi'
 	icon_state = "brutepack"
-	spawn_nothing_percentage = 25
+	//spawn_nothing_percentage = 25
 	item_to_spawn()
 		return pick(prob(4);/obj/item/stack/medical/bruise_pack,\
 					prob(4);/obj/item/stack/medical/ointment,\
@@ -155,7 +155,7 @@
 	desc = "Hot Stuff."
 	icon = 'icons/obj/items.dmi'
 	icon_state = "purplecomb"
-	spawn_nothing_percentage = 50
+	//spawn_nothing_percentage = 50
 	item_to_spawn()
 		return pick(prob(3);/obj/item/weapon/storage/pill_bottle/tramadol,\
 					prob(4);/obj/item/weapon/haircomb/fluff/cado_keppel_1,\

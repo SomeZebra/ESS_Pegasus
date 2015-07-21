@@ -193,8 +193,8 @@
 			take_damage(rand(0, 250))
 		else
 
-	if (src.z == 1)
-		src.ChangeTurf(/turf/simulated/floor/plating/airless/planetsurface)
+	//if (src.z == 1)
+	//	src.ChangeTurf(/turf/simulated/floor/plating/airless/planetsurface)
 	return
 
 /turf/simulated/wall/blob_act()

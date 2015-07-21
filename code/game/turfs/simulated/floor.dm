@@ -100,8 +100,8 @@ var/list/wood_icons = list("wood","wood-broken")
 				src.break_tile()
 				src.hotspot_expose(1000,CELL_VOLUME)
 
-	if (src.z == 1)
-		src.ChangeTurf(/turf/simulated/floor/plating/airless/planetsurface)
+	//if (src.z == 1)
+	//	src.ChangeTurf(/turf/simulated/floor/plating/airless/planetsurface)
 	return
 
 /turf/simulated/floor/fire_act(datum/gas_mixture/air, exposed_temperature, exposed_volume)
