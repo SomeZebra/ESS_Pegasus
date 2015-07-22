@@ -4,9 +4,7 @@
 <ul>
 	<li>Наш <a href='https://www.ghostwaltz.ru/'>форум</a>. Временно отключен.</li>
 	<li><a href='https://vk.com/ghostwaltz'>Группа ВК</a>.</li>
-	<!-- <li><a href='https://www.ghostwaltz.ru/viewtopic.php?f=19&t=13'>Правила сервера</a>.</li> -->
-	<li><a href='https://vk.com/topic-96118410_32024793'>Правила сервера (ВК)</a>. Можете прочитать, нажав кнопку <strong>Rules</strong> в правом верхнем углу экрана над панелью управления.</li>
-	<!-- <li>По вопросам бана/разбана писать <a href='https://www.ghostwaltz.ru/viewtopic.php?f=15&t=3'>сюда</a>.</li> -->
+	<li><a href='https://vk.com/topic-96118410_32024793'>Правила сервера (ВК)</a>. Можете прочитать, нажав кнопку <strong>Rules</strong> в правом верхнем углу экрана.</li>
 	<li>По вопросам бана/разбана писать <a href='https://vk.com/topic-96118410_31853885'>сюда (ВК)</a>.</li>
-	<li>Вики пока в разработке</li>
+	<li>Вики пока в разработке.</li>
 </ul>
