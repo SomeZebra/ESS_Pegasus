@@ -6,28 +6,18 @@
 #
 # Case IS important for the rank. However punctuation/spaces are not #
 # Ranks can be anything defined in admin_ranks.txt           ~Carn  
- #
+#
 ######################################################################
 
-
-Antik95 - Developer
-
 Linteir - Developer
-
+JustIV - Developer
 WarFoxy - Developer
-
 WarFoxy2 - Developer
 
-JustIV - Developer
-
-
-
+Antik95 - Game Master
 Cordis - Game Master
-
 Night_rus - Game Master
-
-PhySiC - Game Master
-
+#PhySiC - Game Master
 
 Enthecon - Game Admin
-a.cache - Game Admin
+#a.cache - Game Admin

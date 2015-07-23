@@ -2,9 +2,11 @@
 
 -<i>Этот сервер работает на модификации билда <a href="http://baystation12.net/">Baystation 12's</a>.</i>
 <ul>
-	<li>Наш <a href='https://www.ghostwaltz.ru/'>форум</a>. Временно отключен.</li>
+	<li>Наш <a href='https://www.ghostwaltz.ru/'>форум</a>.</li>
 	<li><a href='https://vk.com/ghostwaltz'>Группа ВК</a>.</li>
-	<li><a href='https://vk.com/topic-96118410_32024793'>Правила сервера (ВК)</a>. Можете прочитать, нажав кнопку <strong>Rules</strong> в правом верхнем углу экрана.</li>
-	<li>По вопросам бана/разбана писать <a href='https://vk.com/topic-96118410_31853885'>сюда (ВК)</a>.</li>
+	<li><a href='https://vk.com/topic-96118410_32024793'>Правила сервера</a>. Можете прочитать, нажав кнопку <strong>Rules</strong> в правом верхнем углу экрана.</li>
+	<li>По вопросам бана/разбана писать <a href='https://www.ghostwaltz.ru/viewforum.php?f=15'>сюда</a>. <a href='https://www.ghostwaltz.ru/viewtopic.php?f=15&t=3'>Форма тут</a>.</li>
+	<li><a href='https://www.ghostwaltz.ru/viewforum.php?f=20'>Багтреккер и Идеи</a>. <a href='https://www.ghostwaltz.ru/viewtopic.php?f=20&t=4'>Форма тут</a>.</li>
+	<li><a href='https://www.ghostwaltz.ru/viewforum.php?f=11'>Заявка на принятие в администрацию; Жалобы на администрацию</a>. <a href='https://www.ghostwaltz.ru/viewtopic.php?f=11&t=2'>Форма тут</a>.</li>
 	<li>Вики пока в разработке.</li>
 </ul>
