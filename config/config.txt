@@ -175,7 +175,7 @@ SERVER ss13.cozyplace.su:1656
 FORUMURL https://www.ghostwaltz.ru/
 
 ## Wiki address
-# WIKIURL http://example.com
+WIKIURL http://wiki.baystation12.net
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
 BANAPPEALS https://www.ghostwaltz.ru/viewtopic.php?f=15&t=3

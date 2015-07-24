@@ -82,6 +82,22 @@
 
 /obj/item/weapon/book/manual/supermatter_engine/New()
 	..()
+	dat = {"
+
+		<html><head>
+		</head>
+
+		<body>
+		<iframe width='100%' height='97%' src="[config.wikiurl]User:Atlantis/Supermatter&printable=yes&remove_links=1" frameborder="0" id="main_frame"></iframe>
+		</body>
+
+		</html>
+
+		"}
+
+/*
+/obj/item/weapon/book/manual/supermatter_engine/New()
+	..()
 	dat = {"<html>
 				<head>
 				<style>
@@ -146,7 +162,7 @@
 				</ol>
 				</body>
 			</html>"}
-
+*/
 /obj/item/weapon/book/manual/engineering_hacking
 	name = "Hacking"
 	icon_state ="bookHacking"
