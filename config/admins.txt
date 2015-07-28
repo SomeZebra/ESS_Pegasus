@@ -14,10 +14,10 @@ JustIV - Developer
 #WarFoxy - Developer
 #WarFoxy2 - Developer
 
-Antik95 - Game Master
+#Antik95 - Game Master
 Cordis - Game Master
 Night_rus - Game Master
 #PhySiC - Game Master
 
-Enthecon - Game Admin
+#Enthecon - Game Admin
 #a.cache - Game Admin
