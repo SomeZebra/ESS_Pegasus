@@ -404,6 +404,11 @@
 		name = "Bald"
 		icon_state = "bald"
 
+	balalaika
+		name = "Balalaika"
+		icon_state = "hair_balalaika"
+		gender = FEMALE
+
 	icp_screen_pink
 		name = "pink IPC screen"
 		icon_state = "ipc_pink"

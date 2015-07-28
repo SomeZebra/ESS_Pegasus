@@ -493,7 +493,21 @@
 
 /obj/item/clothing/under/blazer
 	name = "blue blazer"
-	desc = "A bold but yet conservative outfit, red corduroys, navy blazer and a tie." 
+	desc = "A bold but yet conservative outfit, red corduroys, navy blazer and a tie."
 	icon_state = "blue_blazer"
 	item_state = "blue_blazer"
 	item_color = "blue_blazer"
+
+/obj/item/clothing/under/balalaika_black
+	name = "executive suit"
+	desc = "A formal trouser suit for women, intended for the station's finest."
+	icon_state = "balalaika_black"
+	item_state = "balalaika_black"
+	item_color = "balalaika_black"
+
+/obj/item/clothing/under/balalaika_red
+	name = "executive suit"
+	desc = "A formal trouser suit for women, intended for the station's finest."
+	icon_state = "balalaika_red"
+	item_state = "balalaika_red"
+	item_color = "balalaika_red"
