@@ -10,14 +10,13 @@
 ######################################################################
 
 Linteir - Developer
-JustIV - Developer
-#WarFoxy - Developer
-#WarFoxy2 - Developer
+linteir - Developer
 
-#Antik95 - Game Master
-Cordis - Game Master
-Night_rus - Game Master
+cordis - Game Master
 #PhySiC - Game Master
 
+
+antik95 - Game Admin
+night_rus - Game Admin
 #Enthecon - Game Admin
-#a.cache - Game Admin
+a.cache - Game Admin
