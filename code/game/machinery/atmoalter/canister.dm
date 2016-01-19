@@ -64,6 +64,7 @@
 
 /obj/machinery/portable_atmospherics/canister/air/airlock
 	start_pressure = 3 * ONE_ATMOSPHERE
+	volume = 3000
 
 /obj/machinery/portable_atmospherics/canister/empty/
 	start_pressure = 0
@@ -221,7 +222,7 @@ update_flag
 /obj/machinery/portable_atmospherics/canister/bullet_act(var/obj/item/projectile/Proj)
 	if(!(Proj.damage_type == BRUTE || Proj.damage_type == BURN))
 		return
-	
+
 	if(Proj.damage)
 		src.health -= round(Proj.damage / 2)
 		healthcheck()
