@@ -13,10 +13,9 @@ Linteir - Developer
 linteir - Developer
 
 cordis - Game Master
-#PhySiC - Game Master
+PhySiC - Game Admin
 
 
 antik95 - Game Admin
 night_rus - Game Admin
-#Enthecon - Game Admin
-a.cache - Game Admin
+
